@@ -15,6 +15,45 @@ background-color:#FFBC42;
 border-radius:5px;
 }
 .current{
-    background-color: #FFF3B0;
+    background-color: #21295C;
+    border-radius: 7px; 
+    box-shadow: 1px 1px 3px #111;
+    transition: all .3s;
+}
+.current:hover{
+    background-color : #21295C;
+    border-radius: 7px;
+    box-shadow: 1px 3px 10px #111;
+    transform: translateY(-1px);
+}
+.search-input{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #999;
+    transition: all .4s;
+}
+.search-input:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.search-button{
+    border-radius: 100%;
+    padding: 5px 10px;
+    transition: all .4s;
+}
+.search-button:hover{
+    background-color: #eee;
+    transform: translateY(-1px);
 }
 /* end of navbar */
+/* cards */
+.card-common{
+    box-shadow : 1px 2px 5px #999;
+    transition: all .4s;
+}
+.card-common:hover{
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(-1px);
+}
+/* end of cards */
